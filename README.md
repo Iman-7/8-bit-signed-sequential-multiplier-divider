@@ -3,6 +3,7 @@
 #### How to build and use the code
 
 To build the code: you will simply download this GitHub repo and run it using Vivado.
+
 To test the code: First, use the toggle switches of the FPGA to input two 8 bit signed values. 
 Then, press on the key ’n’ if you wish to perform multiplication and the key ‘o’ if you wish to perform division.  
 The decimal output of each operation will be displayed on the four digit seven segment display of the FPGA. 
