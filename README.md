@@ -4,7 +4,7 @@ We implemented an 8-bit signed sequential multiplier/divider using Verilog HDL.
 
 #### How to build and use the code
 
-To build the code: you will simply download this GitHub repo and run it using Vivado.
+To build the code: you will simply download this GitHub repo and run it using Vivado. Or if you already have an opened Vivado project, all you need then is to copy the constraints, simulation, and source files into your project.
 
 To test the code: First, use the toggle switches of the FPGA to input two 8 bit signed values. 
 Then, press on the key ’n’ if you wish to perform multiplication and the key ‘o’ if you wish to perform division.  
