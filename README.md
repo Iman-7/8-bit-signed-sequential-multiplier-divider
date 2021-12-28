@@ -1,8 +1,9 @@
 # 8-bit signed sequential multiplier/divider
 
-#### How to build and use the code:
+#### How to build and use the code
 
-First, use the toggle switches of the FPGA to input two 8 bit signed values. 
+To build the code: you will simply download this GitHub repo and run it using Vivado.
+To test the code: First, use the toggle switches of the FPGA to input two 8 bit signed values. 
 Then, press on the key ’n’ if you wish to perform multiplication and the key ‘o’ if you wish to perform division.  
 The decimal output of each operation will be displayed on the four digit seven segment display of the FPGA. 
 Press on ‘m’ if you would like to reset the whole operation and the value displayed the LEDs will return to zero.
@@ -24,4 +25,4 @@ Q go back to zero. We managed to solve this problem by using a small FSM that
 checks in which state we are (multiplication, division, or reset), and then stays in the
 same state as long as nothing is pressed.
 Further, we assumed that since we cannot display a negative sign on the FPGA, we
-decided to display the decimal value of the 2s complement of the product or quotient
+decided to display the decimal value of the 2s complement of the product or quotient.
