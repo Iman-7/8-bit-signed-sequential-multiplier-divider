@@ -1,5 +1,7 @@
 # 8-bit signed sequential multiplier/divider
 
+We implemented an 8-bit signed sequential multiplier/divider using Verilog HDL.
+
 #### How to build and use the code
 
 To build the code: you will simply download this GitHub repo and run it using Vivado.
